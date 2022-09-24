@@ -39,7 +39,7 @@ body {
     font-size: 15px;
     line-height: 1.25;
     text-align: center;
-    color: var(--dark-blue);
+    color: var(--white);
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -47,6 +47,6 @@ body {
 }
 
 .attribution a {
-    color: ;
+    color: var(--soft-blue);
     text-decoration: none;
 }
