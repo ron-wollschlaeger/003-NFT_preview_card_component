@@ -45,7 +45,30 @@ a:hover {
     max-width: 15rem;
 }
 
+.card__image-wrapper {
+    position: relative;
+}
+
+.card__image-wrapper .card__image-overlay {
+    background: var(--cyan);
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    border-radius: 0.8rem;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.card__image-wrapper:hover .card__image-overlay{
+    opacity: .5;
+}
+
 .card__image {
+    display: block;
     max-width: 100%;
     border-radius: 0.5rem;
     margin-bottom: 1.25rem;
