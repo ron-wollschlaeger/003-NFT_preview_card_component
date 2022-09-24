@@ -29,6 +29,9 @@ body {
 }
 
 /*---------------------------------------- Card styling */
+.card {
+    width: 200px;
+}
 
 /*---------------------------------------- Frontend Mentor Credits styling */
 .attribution {
