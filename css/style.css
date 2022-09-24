@@ -2,6 +2,7 @@
 :root {
     --soft-blue: hsl(215, 51%, 70%);
     --cyan: hsl(178, 100%, 50%);
+    --cyan-hover: hsla(178, 100%, 50%, 0.5);
     --main-bg: hsl(217, 54%, 11%);
     --card-bg: hsl(216, 50%, 16%);
     --line: hsl(215, 32%, 27%);
@@ -35,12 +36,14 @@ a {
 
 a:hover {
     color: var(--cyan) !important;
+    cursor: pointer;
 }
 
 /*---------------------------------------- Card styling */
 .card {
     background-color: var(--card-bg);
     padding: 1.1rem;
+    margin: 1.1rem;
     border-radius: 0.8rem;
     max-width: 15rem;
 }
@@ -49,8 +52,12 @@ a:hover {
     position: relative;
 }
 
+
 .card__image-wrapper .card__image-overlay {
-    background: var(--cyan);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--cyan-hover);
     position: absolute;
     left: 0;
     top: 0;
@@ -64,7 +71,7 @@ a:hover {
 }
 
 .card__image-wrapper:hover .card__image-overlay{
-    opacity: .5;
+    opacity: 1;
 }
 
 .card__image {
