@@ -63,11 +63,11 @@ body {
     display: flex;
     color: var(--cyan);
     font-size: 0.75rem;
-}
-
-.card__price > img {
-    margin-right: 0.4rem;
-    height: .8rem;
+    background: url(../images/icon-ethereum.svg);
+    background-repeat: no-repeat;
+    padding-left: .8rem;
+    background-size: .5rem;
+    background-position: left center;
 }
 
 .card__time-left {
@@ -75,11 +75,11 @@ body {
     justify-self: end;
     color: var(--soft-blue);
     font-size: 0.75rem;
-}
-
-.card__time-left > img {
-    margin-right: 0.4rem;
-    height: .8rem;
+    background: url(../images/icon-clock.svg);
+    background-repeat: no-repeat;
+    padding-left: 1.15rem;
+    background-size: .85rem;
+    background-position: left center;
 }
 
 .card > hr {
