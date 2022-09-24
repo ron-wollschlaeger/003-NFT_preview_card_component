@@ -32,13 +32,13 @@ body {
 .card {
     background-color: var(--card-bg);
     padding: 1.1rem;
-    border-radius: 0.9375rem;
+    border-radius: 0.8rem;
     max-width: 15rem;
 }
 
 .card__image {
     max-width: 100%;
-    border-radius: 0.625rem;
+    border-radius: 0.5rem;
     margin-bottom: 1.25rem;
 }
 
@@ -67,16 +67,23 @@ body {
 
 .card__price > img {
     margin-right: 0.4rem;
+    height: .8rem;
 }
 
 .card__time-left {
     display: flex;
+    justify-self: end;
     color: var(--soft-blue);
     font-size: 0.75rem;
 }
 
 .card__time-left > img {
     margin-right: 0.4rem;
+    height: .8rem;
+}
+
+.card > hr {
+    border: 1px solid var(--line);
 }
 
 /*---------------------------------------- Frontend Mentor Credits styling */
