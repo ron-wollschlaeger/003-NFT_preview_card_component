@@ -30,6 +30,11 @@ body {
 
 a {
     text-decoration: none;
+    color: var(--white);
+}
+
+a:hover {
+    color: var(--cyan) !important;
 }
 
 /*---------------------------------------- Card styling */
@@ -88,7 +93,7 @@ a {
 
 .card > hr {
     border: 1px solid var(--line);
-    margin-bottom: 0.7rem;
+    margin-bottom: 0.75rem;
 }
 
 .card__author {
